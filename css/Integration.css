@@ -1,0 +1,119 @@
+#integration{
+    padding: 0 0 100px;
+}
+.integration__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+.integration__wrapper__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 57px 45px 120px;
+    border-radius: 20px;
+    border: 1px solid #E2E3E6;
+}
+.integration__title {
+    text-align: center;
+    margin-top: 27px;
+    color: black;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 58px;
+}
+.integration__text {
+    text-align: center;
+    margin-top: 47px;
+    color: #00000080;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+@media (max-width: 1110px) {
+    .integration__wrapper__box {
+        padding-bottom: 90px;
+    }
+    .integration__title {
+        font-size: 30px;
+        line-height: 58px;
+    }
+    .integration__text {
+        display: -webkit-box;
+        line-clamp: 3;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        font-size: 16px;
+        line-height: 30px;
+    
+    }
+}
+@media (max-width: 950px) {
+    .integration__wrapper__box {
+        padding: 35px 27px 50px;
+    }
+    .integration__title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .integration__text {
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    
+    }
+}
+@media (max-width: 820px) {
+    .integration__wrapper__box {
+        padding: 25px 20px 40px;
+    }
+    .integration__title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .integration__text {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 25px;
+    
+    }
+}
+@media (max-width: 700px) {
+    .integration__wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .integration__wrapper__box {
+        padding: 35px 27px 50px;
+    }
+    .integration__title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .integration__text {
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    
+    }
+}
+@media (max-width: 400px) {
+    .integration__wrapper__box {
+        padding: 25px 20px 40px;
+    }
+    .integration__title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .integration__text {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 25px;
+    
+    }
+    #integration{
+        padding: 0 0 50px;
+    }
+}
