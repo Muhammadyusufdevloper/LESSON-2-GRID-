@@ -1,11 +1,23 @@
-@import url(./reset.css);
+/* @import url(./reset/reset.css);
 @import url(./verebil.css);
-@import url(./header.css);
-@import url(./hero.css);
-@import url(./Integration.css);
-@import url(./customer.css);
-@import url(./phone.css);
-@import url(./hotel.css);
-@import url(./applications.css);
-@import url(./advertising.css);
-@import url(./orders.css);
+@import url(./header/header.css);
+@import url(./hero/hero.css);
+@import url(./integration/integration.css);
+@import url(./customer/customer.css);
+@import url(./phone/phone.css);
+@import url(./hotel/hotel.css);
+@import url(./applications/applications.css);
+@import url(./advertising/advertising.css);
+@import url(./orders/orders.css); */
+
+@import url(./reset/reset.min.css);
+@import url(./verebil.css);
+@import url(./header/header.min.css);
+@import url(./hero/hero.min.css);
+@import url(./integration/integration.min.css);
+@import url(./customer/customer.min.css);
+@import url(./phone/phone.min.css);
+@import url(./hotel/hotel.min.css);
+@import url(./applications/applications.min.css);
+@import url(./advertising/advertising.min.css);
+@import url(./orders/orders.min.css);
